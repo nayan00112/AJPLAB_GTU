@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML MOVIE</title>
+</head>
+
+<body>
+    <h1>AddMovie</h1>
+    <form action="servlet" method="post">
+        <input type="text" name="select_id" value="1" hidden>
+        Name: <input type="text" name="new_data_name"><br>
+        Language <input type="text" name="new_data_language"><br>
+        Director <input type="text" name="new_data_director"><br>
+        <input type="submit" name="" value="Submit">
+    </form>
+    <hr>
+    <h1>Display movie</h1>
+    <form action="servlet" method="post">
+        <input type="text" name="select_id" value="2" hidden><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h1>Modify movie list</h1>
+    <form action="servlet" method="post">
+        <input type="text" name="select_id" value="3" hidden>
+        Currenmt ID: <input type="text" name="update_data_id"><br>
+        New Name: <input type="text" name="update_data_name"><br>
+        New Language <input type="text" name="update_data_language"><br>
+        New Director <input type="text" name="update_data_director"><br>
+        <input type="submit" name="" value="Submit">
+    </form>
+    <hr>
+    <h1>Delete Movie from list</h1>
+    <form action="servlet" method="post">
+        <input type="text" name="select_id" value="4" hidden>
+        ID: <input type="number" name="delete_id"><br>
+        <input type="submit" name="" value="Submit">
+    </form>
+    <hr>
+</body>
+
+</html>

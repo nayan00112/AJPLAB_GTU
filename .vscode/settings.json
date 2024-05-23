@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\ASUS\\Downloads\\mysql-connector-j-8.3.0.jar"
+    ],
+    "editor.fontSize": 16
+}
